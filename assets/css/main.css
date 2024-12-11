@@ -610,7 +610,7 @@ textarea {
   }
 }
 .top.is-visible .logo {
-  font-size: 1.7875512975rem;
+  font-size: 1.5rem;
   grid-area: logo;
   padding: 0;
   text-align: left;
@@ -649,7 +649,7 @@ textarea {
 }
 @media all and (min-width: 56.25em) {
   .logo {
-    font-size: 3.6355864383rem;
+    font-size: 1.5rem;
     padding: 1.5rem 0 0.75rem;
     text-align: center;
   }
