@@ -198,7 +198,7 @@
       min-height: 100px;
       position: relative;
       text-align: center;
-      top: 18px;
+      /*top: 60px;*/
       z-index: 1;
     }
     .hero__header {
@@ -209,7 +209,7 @@
       width: 100%;
       z-index: 2;
       position: absolute;
-      top: 92%;
+      top: 50%;
       left: 50%;
       -webkit-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%);
