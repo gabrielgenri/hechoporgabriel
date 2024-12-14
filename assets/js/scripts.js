@@ -7,17 +7,17 @@ window.addEventListener('scroll', () => {
     lastScrollPosition = window.scrollY;
 
     // Scrolling down
-    if (newScrollPosition < lastScrollPosition && lastScrollPosition > 184) {
-        header.classList.remove("is-visible");
-        header.classList.add("is-hidden");
+    if (newScrollPosition < lastScrollPosition && lastScrollPosition > 4) {
+        header.classList.remove("is-hidden");
+        header.classList.add("is-visible");
     // Scrolling up
     } else if (newScrollPosition > lastScrollPosition) {
         header.classList.remove("is-hidden");
         header.classList.add("is-visible");
     }
 
-    if (lastScrollPosition < 184) {
-        header.classList.remove("is-visible");
+    if (lastScrollPosition < 4) {
+        header.classList.add("is-visible");
     }
 
     newScrollPosition = lastScrollPosition;

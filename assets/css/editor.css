@@ -1,3 +1,10 @@
 /* 
  * Add your own CSS code for the WYSIWYG editor 
  */
+ #js-top.navbar .navbar__menu li a, .navbar__menu li, .navbar .navbar__menu li span[aria-haspopup="true"] {
+    color: #ffffff  !important;
+    display: block;
+    padding: 0 .5rem;
+    -webkit-transition: all .24s ease-out;
+    transition: all .24s ease-out;
+  }

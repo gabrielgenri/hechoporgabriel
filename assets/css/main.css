@@ -1583,6 +1583,9 @@ textarea {
   .content__entry {
     margin: 2.75rem auto;
   }
+  .content__entry2 {
+    margin: 4.74rem 8.75rem;
+  }
 }
 .content__entry > :nth-child(1) {
   margin-top: 0;
