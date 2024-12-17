@@ -31,7 +31,7 @@
     width: 100%;
     padding: 0 var(--page-margin);
     z-index: 99;
-    background-color: var(--link-color);
+    /*background-color: var(--link-color);*/
     
   }
   @media all and (min-width: 56.25em) {
