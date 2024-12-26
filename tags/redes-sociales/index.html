@@ -112,6 +112,42 @@
     }
 }
 
+.gradient {
+    background: linear-gradient(157deg, #180658 0%, #351bca 100%);
+    color: #fff;
+}
+.btn, [type="button"], [type="submit"], button {
+  background: #130946;
+  border: none;
+  border-radius: var(--border-radius);
+  color: var(--white);
+  cursor: pointer;
+  display: inline-block;
+  font: var(--font-weight-bold) 0.7241964329rem var(--body-font);
+  padding: .75rem 1.5rem;
+  vertical-align: middle;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  -webkit-transition: all .12s linear 0s;
+  transition: all .12s linear 0s;
+  width: 100%;
+}
+
+@media (min-width: 75em) {
+  .l-grid {
+    grid-template-columns: repeat(4,8fr);
+    align-content: center;
+    align-items: center;
+    align-self: start;
+  }
+}
+#destacada {
+  padding-top: 7em;
+  padding-bottom: 3em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
 /* Card Animation */
 .tarjeta {
     transition: transform 0.3s, box-shadow 0.3s;
@@ -126,6 +162,7 @@
     margin: 0.5em;
     max-width: 1024px;
     padding: 0 var(--page-margin);
+    padding-top: 0.8em;
     -webkit-box-sizing: content-box;
     box-sizing: content-box;
 }
